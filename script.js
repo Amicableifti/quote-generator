@@ -32,7 +32,7 @@ else
 {
 authorText.textContent = "Author : " + quote.author;
 }
-if(quote.text.length > 70 ){
+if(quote.text.length > 40 ){
     quoteText.classList.add('long-quote');
 }else{
     quoteText.classList.remove('long-quote');
